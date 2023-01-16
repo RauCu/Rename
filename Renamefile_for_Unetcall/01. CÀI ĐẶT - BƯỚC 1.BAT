@@ -4,7 +4,7 @@ title Bắt đầu cài đặt công cụ
 ECHO [%date% %time%] starting Install installer script
 echo =============================================
 IF NOT EXIST C:\audiotomp3 mkdir C:\audiotomp3
-IF NOT EXIST C:\audiotomp3\renamefile mkdir C:\audiotomp3\renamefile
+IF NOT EXIST C:\audiotomp3\rename_audio_file_for_unetcall mkdir C:\audiotomp3\rename_audio_file_for_unetcall
 IF EXIST .\tool xcopy /y .\tool\* C:\audiotomp3\
 
 echo ==========================================
